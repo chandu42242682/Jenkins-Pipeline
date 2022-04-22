@@ -8,7 +8,7 @@ pipeline {
 
                     steps{
 
-                        echo "build success"
+                        echo 'build success'
                     }
             }
 
@@ -16,7 +16,7 @@ pipeline {
 
                     steps{
 
-                        echo "test success"
+                        echo 'test success'
                     }
             }
         
@@ -24,7 +24,7 @@ pipeline {
 
                     steps{
                         
-                        echo "deploy success"
+                        echo 'deploy success'
                     }
             }
     }
